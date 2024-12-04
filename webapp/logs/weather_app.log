@@ -1,0 +1,46 @@
+2024-11-13 10:44:57,169 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 10:44:57,997 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2123
+2024-11-13 10:45:14,573 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 10:45:15,208 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2123
+2024-11-13 10:45:18,844 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 10:45:19,498 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Tel%20Aviv?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2112
+2024-11-13 10:45:22,145 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 10:45:22,783 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Tel%20asdasdasdsdadad?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 400 68
+2024-11-13 10:45:22,786 - ERROR - Failed to fetch weather data.
+2024-11-13 11:21:39,891 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:21:40,617 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Tel%20Aviv?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2119
+2024-11-13 11:27:57,385 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:27:58,037 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2131
+2024-11-13 11:30:24,035 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:30:24,729 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2123
+2024-11-13 11:30:24,736 - INFO - Weather app sent!.
+2024-11-13 11:31:19,279 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:31:19,966 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2123
+2024-11-13 11:31:19,972 - INFO - Weather app sent!.
+2024-11-13 11:34:43,697 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:34:44,485 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2123
+2024-11-13 11:34:44,492 - INFO - Weather app sent!.
+2024-11-13 11:49:16,008 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:49:16,771 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Potato?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2271
+2024-11-13 11:49:16,798 - INFO - Weather app sent!.
+2024-11-13 11:55:01,640 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:55:02,429 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Hizballa?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 400 68
+2024-11-13 11:55:02,431 - ERROR - Failed to fetch weather data.
+2024-11-13 11:55:15,887 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:55:16,513 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/HOlon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2124
+2024-11-13 11:55:16,522 - INFO - Weather app sent!.
+2024-11-13 11:58:58,668 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:58:59,448 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/HOlon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2124
+2024-11-13 11:58:59,454 - INFO - Weather app sent!.
+2024-11-13 11:59:13,766 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 11:59:14,380 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Tel%20Aviv?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2119
+2024-11-13 11:59:14,383 - INFO - Weather app sent!.
+2024-11-13 12:03:23,980 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 12:03:24,706 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Tel%20Aviv?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2127
+2024-11-13 12:03:24,715 - INFO - Weather app sent!.
+2024-11-13 12:04:05,498 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 12:04:06,129 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2133
+2024-11-13 12:04:06,137 - INFO - Weather app sent!.
+2024-11-13 12:10:18,286 - DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+2024-11-13 12:10:19,057 - DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/Holon?unitGroup=metric&include=days&key=QW2CW4HDWMCSWLZ7ZU8ER8MMY&contentType=json HTTP/1.1" 200 2133
+2024-11-13 12:10:19,064 - INFO - Weather app sent!.

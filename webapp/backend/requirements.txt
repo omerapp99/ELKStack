@@ -1,0 +1,6 @@
+Flask==3.0.3
+geopandas==1.0.1
+gunicorn==23.0.0
+requests==2.25.1
+boto3==1.35.48
+prometheus_client

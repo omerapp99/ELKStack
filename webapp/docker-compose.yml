@@ -1,0 +1,30 @@
+
+services:
+  weather-ui:
+    build: ./weather-ui
+    ports:
+      - "3000" 
+
+  backend:
+    build: ./backend
+    ports:
+      - "5000"
+    volumes:
+      - ./logs:/var/log/weather-app
+    deploy:
+      replicas: 1
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80" 
+  
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.17.1
+    container_name: filebeat
+    volumes:
+      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./logs:/var/log/weather-app
+      - ./certs/logstash.crt:/etc/ssl/certs/logstash.crt
+    depends_on:
+      - backend

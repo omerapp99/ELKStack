@@ -1,0 +1,16 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/weather-app/weather_app.log
+
+    
+output.logstash:
+  hosts: ["172.31.42.100:5044"]
+  ssl:
+    enabled: true
+    certificate_authorities: ["/etc/ssl/certs/logstash.crt"]
+    verification_mode: "none" 
+
+monitoring:
+  enabled: false

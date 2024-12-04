@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.1
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.17.1
+    container_name: logstash
+    ports:
+      - "5044:5044"
+    volumes:
+    - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    - ./certs/logstash.crt:/etc/pki/tls/certs/logstash.crt
+    - ./certs/logstash.key:/etc/pki/tls/private/logstash.key
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.1
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    environment:
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    volumes:
+      - ./kibana_data:/usr/share/kibana/data
